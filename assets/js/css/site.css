@@ -1,0 +1,708 @@
+/*FUENTES QUE HE ENLAZADO
+
+font-family: 'Merienda', cursive;
+font-family: 'Prata', serif;
+
+*/
+*{
+    margin:0;
+    padding:0;
+}
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
+
+/*CLASES*/
+body {
+    background: linear-gradient(70deg, #FFFFFF, #EAE9FF);
+}
+
+#navbarSelect {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.aumento {
+    transition: transform .5s;
+}
+
+.aumento:hover {
+    transform: scale(1.1);
+}
+
+.linea-titulo {
+    position: relative;
+    display: inline-block;
+}
+
+.linea-titulo:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width .3s ease-in-out;
+}
+
+.linea-titulo:hover:after {
+    width: 100%;
+}
+
+.tipografia {
+    font-family: 'Merienda', cursive;
+}
+
+
+.linea-titulo-posicion {
+
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.subTitulo{
+    font-family: 'Prata';
+}
+.texto {
+    font-family: 'Prata';
+    text-align: justify;
+}
+
+[data-animate-in] {
+    opacity: 0;
+    transition: transform 0.8s ease, opacity 0.8s ease
+}
+
+[data-animate-in="up"] {
+    transform: translate3d(0, 24px, 0)
+}
+
+[data-animate-in="left"] {
+    transform: translate3d(-25%, 0, 0)
+}
+
+[data-animate-in="right"] {
+    transform: translate3d(25%, 0, 0)
+}
+
+[data-animate-in="down"] {
+    transform: translate3d(0, -24px, 0)
+}
+
+[data-animate-in="fadeIn"] {
+    transform: translate3d(0, 0, 0)
+}
+
+[data-animate-in].in-view {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: transform 0.6s ease, opacity 0.6s ease
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+.page-loaded .fade-in,
+.page-loaded.fade-in {
+    opacity: 1
+}
+
+.rotacion {
+    transition: 2s;
+    /*or however many seconds you want it*/
+}
+
+.rotacion:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*MENU*/
+.menu {
+    line-height: 20px;
+    background: rgb(50, 34, 34);
+    height: 40%;
+    font-size: 24px;
+}
+
+@keyframes desplazamiento-menu {
+    0% {
+        margin-right: 500px;
+    }
+
+    100% {
+        margin-right: 0px;
+    }
+}
+
+.logo-menu {
+    animation-name: desplazamiento-menu;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-timing-function: initial;
+}
+
+.navbar-nav {
+    font-family: 'Merienda';
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+/*PORTADA*/
+#portada {
+    background-image: url("../img/portada.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#portadaCatalogo {
+    background-image: url("../img/portadaCatalogo.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#portadaCuidados {
+    background-image: url("../img/portadaCuidado.webp");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#fondoCaracoles {
+    background-image: url("../img/fondoCaracoles.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#portadaDisco {
+    background-image: url("../img/portadaDisco.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#portadaBetta {
+    background-image: url("../img/fondoBetta.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+
+#portadaMarino {
+    background-image: url("../img/portadaCorales.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+}
+@keyframes desplazamiento-portada {
+    0% {
+        margin-right: 650px;
+    }
+
+    100% {
+        margin-right: 0px;
+    }
+}
+
+.titulo-portada {
+    padding-top: 200px;
+    animation-name: desplazamiento-portada;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-timing-function: initial;
+    font-family: 'Merienda';
+}
+
+.texto-portada {
+    font-size: 14px;
+    animation-name: desplazamiento-portada;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-timing-function: initial;
+    font-family: 'Merienda';
+}
+
+/*INICIO*/
+#inicio {
+    padding-top: 40px;
+}
+
+.linea {
+    border-top: 1px solid black;
+    max-width: 70%;
+    padding-top: 0;
+    margin: 20px auto 0 auto;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.padding-inicio {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.titulo-inicio {
+    font-family: 'Merienda';
+}
+
+.leer-mas {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.leer-mas:hover {
+    color: black;
+}
+
+.color-boton {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    background-color: black;
+}
+
+.color-boton:hover {
+    background-color: rgb(108, 101, 148);
+    font-weight: bold;
+}
+
+.imagen-arte {
+    animation-name: desplazamiento-portada;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-timing-function: initial;
+}
+
+.bg-cajas {
+    background: linear-gradient(70deg, #dcdce0, #FFFFFF);
+}
+
+.boton-canciones {
+    background: linear-gradient(70deg, #ccbcbc, #fcfcfc);
+    border: solid rgb(0, 0, 0) 5px;
+}
+
+
+/*QUIENES SOMOS*/
+.padding-biografia {
+    padding-top: 55px;
+}
+
+.flipped {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+   
+}
+
+#flip{
+    height:200px !important;
+    width: 200px !important;
+}
+
+#flip2{
+    height:700px !important;
+    width: 1200px !important;
+}
+
+#flip3{
+    height:220px !important;
+    width: 200px !important;
+}
+
+#imagen-cantante {
+    width: 350px;
+    margin-left: 80px;
+}
+
+.texto-biografia {
+    text-align: justify;
+}
+
+.album {
+    font-size: 15px;
+    font-family: 'Prata';
+    line-height : 10px; /* DISTANCIA ENTRE LINEAS*/
+}
+
+#repertorio {
+    background-image: url("../img/fondo2.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 25px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merienda';
+
+}
+
+.linea-titulo-bio {
+    position: relative;
+    display: inline-block;
+}
+
+.linea-titulo-bio:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width .3s ease-in-out;
+}
+
+.linea-titulo-bio:hover:after {
+    width: 100%;
+}
+
+#contacto-biografia {
+    padding-bottom: 40px;
+}
+
+/*SERVICIOS*/
+.titulo-servicios {
+    font-family: 'Merienda';
+}
+
+.icono:hover {
+    color: rgb(108, 101, 148);
+}
+
+.links:hover {
+    color: rgb(108, 101, 148);
+}
+
+#clases {
+    padding-top: 90px;
+}
+
+#contacto-servicios {
+    padding-bottom: 40px;
+}
+
+.logo {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.fondo-servicios {
+    background-position: center center;
+    background: radial-gradient(circle, black, white);
+}
+
+#young{
+    height: 350px;
+    width: 300px;
+}
+
+/*CANCIONES*/
+.padding-logros {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+    top: 0;
+}
+
+.ml1 .line2 {
+    bottom: 0;
+}
+
+/*IMAGENES GALERIA*/
+#imglong {
+    width: 500px;
+    height: 600px;
+}
+
+#imglong2 {
+    width: 500px;
+    height: 600px;
+}
+
+#imglong3{
+    width: 500px;
+    height: 600px;
+}
+
+/* Start: Video Responsive */
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /* Cambiar este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*10 CANCIONES*/
+#canciones {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones1 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones2 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones3 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones4 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones5 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones6 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones7 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones8 {
+    width: 425px;
+    height: 1100px;
+}
+
+#canciones9 {
+    width: 425px;
+    height: 1000px;
+}
+
+/*CONTACTO*/
+.padding-contacto {
+    padding-top: 40px;
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista>li {
+    text-decoration: none;
+}
+
+.link-redSocial1 {
+    color: black;
+    transition: 0.5s;
+}
+
+.link-redSocial2 {
+    color: black;
+    transition: 0.5s;
+}
+
+.link-redSocial3 {
+    color: black;
+    transition: 0.5s;
+}
+
+.link-redSocial4 {
+    color: black;
+    transition: 0.5s;
+}
+
+.link-redSocial1:hover {
+    background-color: #1C9CEA;
+    color: white;
+}
+
+.link-redSocial2:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: rgb(255, 255, 255);
+}
+
+.link-redSocial3:hover {
+    background-color: #C51F26;
+    color: white;
+}
+
+.link-redSocial4:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.carousel-inner img {
+    width: 10%;
+    max-height: 600px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.carousel-inner{
+ height: 700px;
+}
+/*Peces Agua Salada*/
+ol{
+    counter-reset: item;
+    list-style: none;
+}
+ol li:before {
+    content: counter(item);
+    counter-increment: item;
+    color: #7a7a7a;
+    display: inline-block;
+    height: 28px;
+    line-height: 24px;
+    margin-right: 10px;
+    width: 28px;
+    border: 2px solid #7a7a7a;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 14px;
+}
+.elementsAquarium{
+    text-align: left;
+}
+.card-body{
+    background-color: white;
+    }
+.final h6{
+    text-align: center;
+}
+.text-footer{
+text-align: center;
+}
