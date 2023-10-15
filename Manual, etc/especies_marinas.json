@@ -1,0 +1,272 @@
+[
+    {
+        "species": "Alfaro cultratus",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7,
+        "descripcion": "La gestación dura unos 24 días. Produce de 10 a 30 alevines, rara vez más. Alcanza la madurez sexual en unos 5 o 6 meses.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Alfaro_cultratus.jpg"
+    },
+    {
+        "species": "Gambusia affinis",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7,
+        "descripcion": "Esta especie es vivípara, la fecundación interna es posible porque la aleta anal del macho se modifica en un órgano copulador. La hembra lleva unos 30 alevines y la gestación dura un período de 24 días a un mes.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZaRM2Bo5y3s8oFcXcavHGC7v77hBOLNYog&usqp=CAU"
+    },
+    {
+        "species": "Poecilia reticulata (Guppy)",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7,
+        "descripcion": "Los machos son aproximadamente la mitad del tamaño de las hembras con cola y aleta caudal coloridas; la aleta anal se transforma en un gonopodio para la fecundación interna. Los machos persiguen y aparean continuamente a las hembras. Las hembras pueden almacenar espermatozoides para la fertilización posterior y pueden producir crías cada cuatro semanas.",
+        "image": "https://cdn.palbincdn.com/users/27624/images/Guppy-azul-1613044742.jpg"
+    },
+    {
+        "species": "Poecilia sphenops (Molly)",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7.8,
+        "descripcion": "Se alimenta de gusanos, crustáceos, insectos y materia vegetal. La variedad negra (Black molly) es un pez de acuario muy popular y se comercializa en todo el mundo. En cuanto a la reproducción, produce de 20 a 150 crías después de 28 días de gestación.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Black_molly1.JPG/240px-Black_molly1.JPG"
+    },
+    {
+        "species": "Xiphophorus hellerii (Xipho)",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7.5,
+        "descripcion": "Alcanza la madurez sexual después de ocho a doce meses. Esta especie tiene tendencia a sufrir una inversión de sexo (de hembra a macho) bajo ciertas condiciones ambientales. Se alimentan de lombrices, crustáceos, insectos y materia vegetal. Utilizado para investigación genética. Especialmente las variedades rojas son peces de acuario muy populares.",
+        "image": "https://acuarioadictos.com/wp-content/upps/2012/02/Pez-Espada.jpg"
+    },
+    {
+        "species": "Belonesox belizanus",
+        "familia": "Poeciliidae",
+        "agua": "Dulce",
+        "zonaNado": "Superior",
+        "ph": 7,
+        "descripcion": "Pez delgado y estirado, con mandíbulas alargadas que forman un pico prominente y puntiagudo. Escamas muy pequeñas y numerosas. Produce hasta 100 huevos.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Belonesox_belizanus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016.jpg"
+    },
+    {
+        "species": "Pterophyllum scalare (Escalar)",
+        "familia": "Cichlidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 7,
+        "descripcion": "El Pez Escalar, ha sido llamado “El Rey de los peces” por la majestuosidad que presenta su estilada forma. Es muy popular en los acuarios domésticos y peces de agua dulce, podemos encontrar numerosas variedades debidas todas ellas a la manipulación del hombre",
+        "image": "https://www.fishipedia.es/wp-content/uploads/2019/01/Pterophyllum-scalare-3-725x483.jpg"
+    },
+    {
+        "species": "Pelvicachromis pulcher (Kribensis)",
+        "familia": "Cichlidae",
+        "agua": "Dulce",
+        "zonaNado": "Baja/media",
+        "ph": 6.5,
+        "descripcion": "El Kribensis, conocido también como Cíclido púrpura, es un Cíclido para acuario que posee un colorido muy atractivo.",
+        "image": "https://acuariomalaga.com/3205/pelvicachromis-pulcher-kribensis.jpg"
+    },
+    {
+        "species": "Oreochromis alcalicus (Tilapia)",
+        "familia": "Cichlidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 7.5,
+        "descripcion": "Resulta curioso que la mayoría pertenezcan a la familia de los Cíclidos africanos, que tiene tantas y tantas especies apreciadas en acuariofilia.",
+        "image": "https://www.fishbase.se/images/species/Oralc_m2.jpg"
+    },
+    {
+        "species": "Betta splendens (Betta)",
+        "familia": "Osphronemidae",
+        "agua": "Dulce",
+        "zonaNado": "Media/superior",
+        "ph": 7,
+        "descripcion": "Los machos lucharán entre sí por lo que es mejor mantener un macho por cada acuario. Construyen nidos de burbujas.",
+        "image": "https://aquascaping.pro/wp-content/uploads/2021/03/betta-splendens-aquascaping-pro-cover.webp"
+    },
+    {
+        "species": "Trichopodus leerii (Gourami perla)",
+        "familia": "Osphronemidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 7,
+        "descripcion": "Se encuentra en pantanos de tierras bajas con agua ácida. Mantener en acuarios a partir de 120 l",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Trichogaster_Leeri.jpg"
+    },
+    {
+        "species": "Paracheirodon innesi (Neón tetra)",
+        "familia": "Characidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 6,
+        "descripcion": "Se alimenta de gusanos, pequeños insectos, crustáceos y materia vegetal. En el acuario, la hembra pone una cantidad relativamente pequeña de huevos, que eclosionan en unas 24 horas. Debemos mantenerlos en grupos mínimo de 6 ejemplares.",
+        "image": "https://www.vivelanaturaleza.com/wp-content/uploads/2020/07/tetra-neon-paracheirodon-innesi-1-1024x683.jpg"
+    },
+    {
+        "species": "Hyphessobrycon pulchripinnis (Tetra limón)",
+        "familia": "Characidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 6.5,
+        "descripcion": "Según observaciones de los expertos, los machos defienden territorios durante el período de desove matutino mientras que las hembras se juntan, ingresando periódicamente al territorio de un macho individualmente para desovar",
+        "image": "https://www.fishi-pedia.com/wp-content/uploads/2013/07/Hyphessobrycon_pulchripinnis_11-725x483.jpg"
+    },
+    {
+        "species": "Symphysodon discus (Pez disco)",
+        "familia": "Cichlidae",
+        "agua": "Dulce",
+        "zonaNado": "Media",
+        "ph": 5.2,
+        "descripcion": "Se alimenta de gusanos, crustáceos, insectos y materia vegetal. Puede llegar a medir máximo 20 cm.",
+        "image": "https://www.aquariumbcn.com/wp-content/uploads/2022/09/Symphysodon-discus.jpg"
+    },
+    {
+        "species": "Amphiprion ocellaris (Pez payaso)",
+        "familia": "Pomacentridae",
+        "agua": "Marino",
+        "zonaNado": "Arrecife",
+        "ph": 8,
+        "descripcion": "Entre los aficionados a los acuarios marinos es una de las especies más apreciadas, las razones son varias, como que se adaptan con facilidad, son resistentes y porque es de las pocas especies de peces marinos tropicales, que se pueden reproducir en cautividad.",
+        "image": "https://www.peceswiki.com/Imagenes/pez-payaso.jpg"
+    },
+    {
+        "species": "Synchiropus splendidus (Pez mandarin)",
+        "familia": "Callionymidae",
+        "agua": "Marino",
+        "zonaNado": "Arrecife",
+        "ph": 8,
+        "descripcion": "Es muy popular en los acuarios de agua salada. El pez mandarín es oriundo del Pacífico, habitando aguas tropicales desde las islas Ryukyu hasta el sur de Australia.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Synchiropus_splendidus_3.jpg/292px-Synchiropus_splendidus_3.jpg"
+    },
+    {
+        "species": "Hippocampus barbouri (Caballito de mar)",
+        "familia": "Syngnathidae",
+        "agua": "Marino",
+        "zonaNado": "Pradera",
+        "ph": 8,
+        "descripcion": "Los machos pueden llegar alcanzar los 15 cm de longitud total. Pueden se completamente negros, o de color amarillo o crema, con grandes manchas oscuras.",
+        "image": "https://reefbuilders.com/wp-content/blogs.dir/1/files/2016/09/Hippocampus-barbouri-H.Zell_-600x346.jpg"
+    },
+    {
+        "species": "Echidna nebulosa (Morena)",
+        "familia": "Muraenidae",
+        "agua": "Marino",
+        "zonaNado": "Pradera",
+        "ph": 8,
+        "descripcion": "Este tipo de especie es muy atractiva para introducir en un acuario marino, y de arrecife. Es una especie muy resistente. Por lo general las podemos encontrar en zonas de baja profundidad.",
+        "image": "https://www.fishipedia.es/wp-content/uploads/2018/10/Echidna-nebulosa-Reunion-Island.jpg"
+    },
+    {
+        "species": "Paracanthurus Hepatus (Pez cirujano azul)",
+        "familia": "Acanthuridae",
+        "agua": "Marino",
+        "zonaNado": "Arrecife",
+        "ph": 8,
+        "descripcion": "El pez cirujano regal no es de gran importancia en la industria de la pesca; sin embargo, se usa como carnada para anzuelos. Su carne tiene un aroma potente y no es muy valorada. Este pez puede causar envenenamiento por ciguatera si es consumido por un ser humano, pero se consume en el sudeste asiático.",
+        "image": "https://www.fishipedia.es/wp-content/uploads/2018/10/20150414_120002_Paracanthurus-hepatus_EIO.jpg"
+    },
+    {
+        "species": "Zebrasoma xanthurum (Cirujano cola amarilla)",
+        "familia": "Acanthuridae",
+        "agua": "Marino",
+        "zonaNado": "Arrecife",
+        "ph": 8,
+        "descripcion": "Es un ágil y vistoso nadador. Sociable con la mayoría de habitantes del arrecife, a excepción de machos territoriales de su misma especie.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Zebrasoma_xanthurum2.JPG"
+    },
+    {
+        "species": "Pomacanthus Xanthometopon (Pez ángel)",
+        "familia": "Pomacanthidae",
+        "agua": "Marino",
+        "zonaNado": "Arrecife",
+        "ph": 8,
+        "descripcion": "Es una especie común en su rango de distribución geográfica y con poblaciones estables. También es una de las especies comercializadas en acuariofilia.",
+        "image": "https://oceanum-magna.com/wp-content/uploads/2019/03/Pomacanthus-xanthometopon.jpg"
+    },
+    {
+        "species": "Caranx caninus (Jurel)",
+        "familia": "Carangidae",
+        "agua": "Marino",
+        "zonaNado": "Manglar",
+        "ph": 8,
+        "descripcion": "Miden alrededor de 60 centímetros de promedio, aunque algunos ejemplares llegan a superar el metro de longitud y se acercan a los 20 kilogramos de peso.",
+        "image": "https://biogeodb.stri.si.edu/sftep/resources/img/images/species/1246_850.jpg"
+    },
+    {
+        "species": "Pomacea canaliculata (Caracol manzana)",
+        "familia": "Ampullariidae",
+        "agua": "Dulce",
+        "zonaNado": "Fondo",
+        "ph": 7.2,
+        "descripcion": "Se le puede encontrar en todo tipo de aguas dulces, siempre que no tengan mucha profundidad y sean lentas: ríos, pantanos, canales de riego, estanques y charcas.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pomacea.jpg"
+    },
+    {
+        "species": "Planorbis planorbis",
+        "familia": "Planorbidae",
+        "agua": "Dulce",
+        "zonaNado": "Fondo",
+        "ph": 7.2,
+        "descripcion": "Planorbis planorbis es originario de Europa Oriental y Asia Central, aunque ha sido introducido en muchos otros lugares, en algunos de los cuales es considerado una especie invasora o una plaga.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Planorbis_planorbis_24.jpg/640px-Planorbis_planorbis_24.jpg"
+    },
+    {
+        "species": "Caridina multidentata (Amano)",
+        "familia": "Atyidae",
+        "agua": "Dulce",
+        "zonaNado": "Fondo",
+        "ph": 7,
+        "descripcion": "Caridina multidentata llegó al mundo de la acuariofilia a comienzos de la década de 1980, introducida por el paisajista acuático japonés Takashi Amano. Se usan en acuariofilia como limpiadoras debido a su alimentación a base de algas.",
+        "image": "https://www.nascapers.es/wp-content/uploads/2020/07/caridina-japonica-multidentata-1024x686.jpg"
+    },
+    {
+        "species": "Neocaridina davidi (Red cherry)",
+        "familia": "Neocaridinae",
+        "agua": "Dulce",
+        "zonaNado": "Fondo",
+        "ph": 7,
+        "descripcion": "Les gusta vivir en grupos de al menos 10 gambas, se alimentan de restos de alimento y algas. Se recomienda tener un acuarios de al menos 15 litros.",
+        "image": "https://www.fishipedia.es/wp-content/uploads/2017/10/Neocaridina-davidi-Sakura-.jpg"
+    },
+    {
+        "species": "Fromia indica",
+        "familia": "Goniasteridae",
+        "agua": "Marino",
+        "zonaNado": "Fondo",
+        "ph": 8,
+        "descripcion": "Solo se recomienda su adquisición a expertos. Particularmente sensible a las variaciones de densidad, temperatura, Ph, y resto de parámetros del agua. Su aclimatación debe ser muy lenta, mediante el sistema de goteo.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fromia_indica_Landaagiraavaru.JPG"
+    },
+    {
+        "species": "Salmacis sp",
+        "familia": "Temnopleuridae",
+        "agua": "Marino",
+        "zonaNado": "Fondo",
+        "ph": 8,
+        "descripcion": "Diámetro del cuerpo máximo de 5 a 8 cm, con pequeñas espinas afiladas. Tiene pies de tubo largos y a menudo se le ve cargando todo tipo de cosas, desde conchas hasta algas. Puede reunir rápidamente estas cosas para cubrirse. Este comportamiento puede ayudar a camuflarlo o protegerlo de la luz solar.",
+        "image": "https://i.pinimg.com/originals/82/33/be/8233be77af4fca73545284c9917c8257.jpg"
+    },
+    {
+        "species": "Holothuria eduli (Pepino de mar)",
+        "familia": "Holothuriidae",
+        "agua": "Marino",
+        "zonaNado": "Fondo",
+        "ph": 8,
+        "descripcion": "Holothuria edulis es una especie común y extendida en el Océano Indo-Pacífico. Vive en el lecho marino a profundidades de hasta 20 metros (66 pies). Su área de distribución se extiende desde el Mar Rojo y la costa este de África hasta Sri Lanka , Japón , China , Indonesia , Filipinas , el norte de Australia y varias islas del Pacífico.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Holothuria_edulis.jpg"
+    },
+    {
+        "species": "Engina mendicaria (Caracol abejorro)",
+        "familia": "Pisaniidae",
+        "agua": "Marino",
+        "zonaNado": "Fondo",
+        "ph": 8,
+        "descripcion": "Estos caracoles de mar carnívoros viven en costas rocosas y lechos de arena. Son principalmente nocturnos.",
+        "image": "https://www.communitycorals.de/wp-content/uploads/2023/04/MG_0450-2-scaled.jpg"
+    }
+]
